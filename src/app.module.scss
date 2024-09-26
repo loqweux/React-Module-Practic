@@ -1,0 +1,24 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  .card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    &-header {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+    }
+    &-location,
+    &-prize {
+      font-size: 1em;
+      color: #555555;
+    }
+  }
+  .teams,
+  .events {
+    list-style-type: none;
+    padding: 0;
+  }
+}

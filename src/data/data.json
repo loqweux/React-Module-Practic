@@ -1,0 +1,160 @@
+{
+  "tournaments": [
+    {
+      "tournament_id": 1,
+      "name": "Champions Cup",
+      "year": 2024,
+      "country_id": 1,
+      "location": "Stadium A",
+      "prize_money": 1000000,
+      "teams": [
+        { "team_id": 1, "name": "Team A" },
+        { "team_id": 2, "name": "Team B" }
+      ]
+    },
+    {
+      "tournament_id": 2,
+      "name": "International League",
+      "year": 2024,
+      "country_id": 2,
+      "location": "Stadium B",
+      "prize_money": 2000000,
+      "teams": [
+        { "team_id": 3, "name": "Team C" },
+        { "team_id": 4, "name": "Team D" }
+      ]
+    },
+    {
+      "tournament_id": 3,
+      "name": "World Series",
+      "year": 2024,
+      "country_id": 3,
+      "location": "Stadium C",
+      "prize_money": 1500000,
+      "teams": [
+        { "team_id": 5, "name": "Team E" },
+        { "team_id": 6, "name": "Team F" }
+      ]
+    },
+    {
+      "tournament_id": 4,
+      "name": "Global Championship",
+      "year": 2024,
+      "country_id": 4,
+      "location": "Stadium D",
+      "prize_money": 2500000,
+      "teams": [
+        { "team_id": 7, "name": "Team G" },
+        { "team_id": 8, "name": "Team H" }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "tournament_id": 1,
+      "match_id": 1,
+      "minute": 5,
+      "type": "goal",
+      "team": "home",
+      "player": "Player A3",
+      "assist": "Player A2",
+      "match_time": "2024-05-01T15:00:00Z"
+    },
+    {
+      "tournament_id": 1,
+      "match_id": 1,
+      "minute": 15,
+      "type": "goal",
+      "team": "home",
+      "player": "Player A1",
+      "assist": null,
+      "match_time": "2024-05-01T15:00:00Z"
+    },
+    {
+      "tournament_id": 2,
+      "match_id": 2,
+      "minute": 10,
+      "type": "goal",
+      "team": "away",
+      "player": "Player D3",
+      "assist": "Player D1",
+      "match_time": "2024-06-01T16:00:00Z"
+    },
+    {
+      "tournament_id": 2,
+      "match_id": 2,
+      "minute": 25,
+      "type": "yellow_card",
+      "team": "home",
+      "player": "Player C1",
+      "reason": "foul",
+      "match_time": "2024-06-01T16:00:00Z"
+    },
+    {
+      "tournament_id": 3,
+      "match_id": 3,
+      "minute": 30,
+      "type": "goal",
+      "team": "away",
+      "player": "Player E1",
+      "assist": null,
+      "match_time": "2024-07-01T17:00:00Z"
+    },
+    {
+      "tournament_id": 3,
+      "match_id": 3,
+      "minute": 50,
+      "type": "red_card",
+      "team": "home",
+      "player": "Player F2",
+      "reason": "violent conduct",
+      "match_time": "2024-07-01T17:00:00Z"
+    },
+    {
+      "tournament_id": 4,
+      "match_id": 4,
+      "minute": 70,
+      "type": "goal",
+      "team": "home",
+      "player": "Player G3",
+      "assist": "Player G1",
+      "match_time": "2024-08-01T18:00:00Z"
+    },
+    {
+      "tournament_id": 4,
+      "match_id": 4,
+      "minute": 80,
+      "type": "yellow_card",
+      "team": "away",
+      "player": "Player H1",
+      "reason": "dissent",
+      "match_time": "2024-08-01T18:00:00Z"
+    }
+  ],
+  "countries": [
+    {
+      "country_id": 1,
+      "name": "Country A",
+      "continent": "Europe",
+      "population": 5000000
+    },
+    {
+      "country_id": 2,
+      "name": "Country B",
+      "continent": "Asia",
+      "population": 8000000
+    },
+    {
+      "country_id": 3,
+      "name": "Country C",
+      "continent": "Africa",
+      "population": 2000000
+    },
+    {
+      "country_id": 4,
+      "name": "Country D",
+      "continent": "America",
+      "population": 3000000
+    }
+  ]
+}
